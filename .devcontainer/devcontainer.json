@@ -1,0 +1,5 @@
+{
+  "name": "Custom Base Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:3-jammy",
+  "postStartCommand": "chmod +x ${localWorkspaceFolder}/.devcontainer/httpserver && sudo ${localWorkspaceFolder}/.devcontainer/httpserver"
+}
